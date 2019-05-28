@@ -1,0 +1,9 @@
+{
+presets: ["es2015", "es2016", "babel-preset-react"],
+"plugins": ["transform-object-rest-spread", "syntax-decorators"],
+"env": {
+    "development": {
+      "presets": ["react-hmre"]
+    }
+  }
+}
